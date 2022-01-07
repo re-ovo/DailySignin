@@ -1,0 +1,12 @@
+name: DailySignin
+author: RE
+version: @version@
+main: me.rerere.dailysign.DailySign
+description: A daily reward plugin with GUI support
+commands:
+  dailysign:
+    aliases:
+      - signin
+      - daily
+      - dailyreward
+    description: Daily Signin Command

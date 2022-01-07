@@ -1,0 +1,35 @@
+###################################################################
+#      ____        _ _ _       ____  _             _
+#     |  _ \  __ _(_) | |_   _/ ___|(_) __ _ _ __ (_)_ __
+#     | | | |/ _` | | | | | | \___ \| |/ _` | '_ \| | '_ \
+#     | |_| | (_| | | | | |_| |___) | | (_| | | | | | | | |
+#     |____/ \__,_|_|_|_|\__, |____/|_|\__, |_| |_|_|_| |_|
+#                        |___/         |___/
+#
+#### DailySign #####################################################
+
+# Set the language of the plugin
+#
+# Available languages:
+# - en_US: English(American)
+# - zh_CN: Chinese(Simplified)
+#
+# If you want to help translate this plugin, please contact me ^^
+language: en_US
+
+# Set how the plugin stores data
+storage:
+  # Available storage types: h2, mysql
+  type: h2
+  # Settings for h2 storage
+  h2:
+    name: ''
+  # Mysql settings
+  mysql:
+    url: 'localhost:3306'
+    database: 'minecraft'
+    username: 'root'
+    password: 'password'
+    useSSL: false
+    table_prefix: 'ds_'
+
